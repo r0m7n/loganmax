@@ -1,1 +1,0 @@
-set https_proxy=http://roman:zkro7ma3@10.17.128.111:3128
