@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   
+</head>
+<body>
+<div>
+  {% for i in primer1 %}	
+	<p> пользователя: {{i.author}}</p>
+	<p> текущий пробег: {{ i.probeg_tek }}</p>
+    <p> дата приобретения: {{i.date_create}}</p>
+    <p> общий пробег: {{i.probeg_all}}</p>	
+	<p> да публикации:{{i.date_publish}}</p>
+	<p> наличие кондиционера: {{i.conder}}</p>
+	<p> ------</p>
+  {% endfor %}
+</div>
+</body>
+</html>
